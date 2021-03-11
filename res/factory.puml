@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+package FormInterface {
+    (create)
+    (createNamed)
+    (createForProperty)
+}
+
+
+package FormBuilderInterface {
+    (createNamedBuilder)
+    (createBuilderForProperty)
+    (createBuilder)
+}
+
+create --> createBuilder
+createForProperty -> createBuilderForProperty
+createNamed -> createNamedBuilder
+createBuilder --> createNamedBuilder
+createBuilderForProperty --> createNamedBuilder
+@enduml

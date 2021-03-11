@@ -1,0 +1,10 @@
+@startuml
+
+(FormBuilder::getForm)
+(Form::initialize)
+(Form::setData)
+
+(FormBuilder::getForm) -> (Form::initialize): call
+(Form::initialize) -> (Form::setData): call
+
+@enduml

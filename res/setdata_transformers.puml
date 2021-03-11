@@ -1,0 +1,10 @@
+@startuml
+
+(Model data)
+(Norm data)
+(View data)
+
+(Model data) -> (Norm data): modelTransformer
+(Norm data) -> (View data): viewTransformer
+
+@enduml
