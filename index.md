@@ -5,7 +5,7 @@ layout: true
 
 <!-- This slide will serve as the base layout for all your slides -->
 .bottom-bar[
-![SFLive logo](img/sflive.svg) Deep dive into the form component
+![SFLive logo](img/sflive.svg) .bottom-text[Deep dive into the form component]
 ]
 ---
 

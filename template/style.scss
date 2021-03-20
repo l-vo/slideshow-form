@@ -112,7 +112,8 @@ blockquote {
   text-align: left;
   z-index: 1;
   p { margin: 0;}
-  .impact &, .full & { display: none; }
+  .full & { display: none; }
+  .impact & .bottom-text, { display: none; }
 }
 
 
