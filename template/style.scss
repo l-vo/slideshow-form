@@ -304,8 +304,19 @@ blockquote {
   margin-top: -65px;
 }
 
-.request_handler h1 {
+.request_handler1 h1 {
   margin-bottom: 10%;
+}
+
+.request_handler2 {
+  h1 {
+    margin-bottom: 7%;
+  }
+
+  .note {
+    margin-top: 8%;
+    font-size: 0.8em;
+  }
 }
 
 .submit1 h1 {
