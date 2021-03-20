@@ -210,11 +210,14 @@ blockquote {
   .remark-visible & { animation-name: fadeIn; }
 }
 
-.sflive img {
-  width: 12%;
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.bottom-bar {
+  padding-top: 4px;
+  img {
+    width: 10%;
+    margin-left: -12px;
+    margin-bottom: -19px;
+    margin-right: 320px;
+  }
 }
 
 .formfactory_needs h1 {
