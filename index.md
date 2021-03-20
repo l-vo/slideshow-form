@@ -179,7 +179,7 @@ class: section
 
 ---
 
-class: request_handler
+class: request_handler1
 
 # Request handler
 
@@ -191,14 +191,19 @@ A request handler (`RequestHandlerInterface` implementation) retrieve data from 
 
 ---
 
-class: request_handler
+class: request_handler2
 
 # Request handler
 
-The Form component provides 2 implementations of `RequestHandlerInterface`
+The Form component currently provides 2 implementations of `RequestHandlerInterface`:
 - `NativeRequestHandler` that retrieves request data from php superglobals (*$_GET*, *$_POST*...)
   
 - `HttpFoundationRequestHandler` that retrieves request data from an HttpFoundation request object
+
+.note[
+*Note: a pull request is opened on the `psr-http-message-bridge` to introduce a 
+`Psr7RequestHandler`.*
+]
 
 ---
 
