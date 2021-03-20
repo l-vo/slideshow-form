@@ -27,6 +27,50 @@ class: impact
 <br />
 <img src="img/twitter.png" style="width: 3%;margin-right: 5px;"/><strong>@lvodev</strong>
 </div>
+
+---
+
+class: section
+
+# Some background
+
+---
+
+class: thesis
+
+# The Form component
+
+Created by Bernhard Schussek (@Webmozart)  
+  
+Subject of his thesis:
+
+"An algorithm and architecture for server-side  
+processing of model-bound compositional web forms"
+
+https://webmozart.io/files/bsc-thesis.pdf
+
+---
+
+class: aim
+
+# Aim of the architecture
+
+- maximizes reusability of forms by abstracting their individual components,
+  
+- allows to compose such components to create new components of a higher complexity,
+  
+- reduces the effects of crosscutting to a minimum and
+  
+- provides an integration with the application’s domain model (model binding).
+
+(© Bernhard Schussek, excerpt from his thesis)
+
+---
+
+class: section
+
+# Let's go
+
 ---
 
 # Form handling is simple
