@@ -1,14 +1,11 @@
 title: Symfony forms
-subtitle: Deep dive into the form component
 name: sflive_page
 class: animation-fade
 layout: true
 
-.sflive[![SFLive logo](img/sflive.svg)]
-
 <!-- This slide will serve as the base layout for all your slides -->
 .bottom-bar[
-{{subtitle}}
+![SFLive logo](img/sflive.svg) Deep dive into the form component
 ]
 ---
 
@@ -16,7 +13,7 @@ layout: true
 class: impact
 
 # {{title}}
-## {{subtitle}}
+## Deep dive into the form component
 
 ---
 <div style="text-align: center">
