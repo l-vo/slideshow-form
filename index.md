@@ -42,7 +42,7 @@ class: thesis
 
 Created by Bernhard Schussek (@Webmozart)  
   
-Subject of his thesis:
+Subject of his bachelor thesis:
 
 "An algorithm and architecture for server-side  
 processing of model-bound compositional web forms"
