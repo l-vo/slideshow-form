@@ -1,4 +1,4 @@
-# Remarkjs slideshow about form
+# Deep dive into the Form component - Symfony live french 2021
 
 This slideshow was designed for being used with Remarkjs:
 * https://github.com/gnab/remark
